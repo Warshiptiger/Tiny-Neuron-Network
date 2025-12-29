@@ -16,8 +16,6 @@ def d_relu(x):
         return 1
     else:
         return 0
-
-
 class TinyNN:
 
     def __init__(self, lr=0.1):

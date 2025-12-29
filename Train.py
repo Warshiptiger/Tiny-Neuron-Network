@@ -29,8 +29,7 @@ def train(model, data, epochs=100):
         print("Epoch:", epoch + 1)
         print("Loss:", round(total_loss, 4))
         print("Accuracy:", round(accuracy * 100, 2), "%")
-        print("----------------------")
-
+        print(" ")
 
 def test(model, data):
     correct = 0
